@@ -28,6 +28,22 @@ header p{
 .menu div{
     margin: 2%;
     padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+}
+.menu div img{
+    cursor: pointer;
+}
+#animation{
+    transition: 300ms;
+}
+.seta{
+    transform: rotate(90deg);
+    transition: 300ms;
+}
+.ativa{
+    display: block !important;
 }
 .conteudo{
     background-color: rgb(255, 255, 255);

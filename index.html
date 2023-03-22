@@ -14,9 +14,16 @@
     </header>
     <div class="corpo">
         <div class="menu">
-            <div>Serviços</div>
-            <div>Cadastros</div>
-            <div>Tabelas</div>
+            <div onclick="rota()" id="arrow">
+                Serviços
+                <img  id="animation" src="/seta-direita.png" alt="">
+            </div>
+              <p id="texto" style="display: none;">texto</p>
+            <div>
+                Cadastros
+                <img src="/seta-direita.png" alt="">
+            </div>
+            <div>Tabelas <img src="/seta-direita.png" alt=""></div>
             <div>Relatórios</div>
             <div>Configurações</div>
             <div>Utilidades</div>
@@ -26,5 +33,18 @@
         </div>
         <div class="conteudo"></div>
     </div>
+
+    <script>
+        function rota(){
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('seta')
+            var arrow2 = document.getElementById('texto');
+            arrow2.classList.toggle('ativa')
+        }
+        function texto(){
+            var arrow2 = document.getElementById('texto');
+            arrow2.classList.toggle('ativa')
+        }
+    </script>
 </body>
 </html>
