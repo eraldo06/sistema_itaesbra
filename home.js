@@ -41,15 +41,9 @@ function rota7() {
     var arrow2 = document.querySelector('.texto7');
     arrow2.classList.toggle('ativa')
 }
-function rota8() {
+function ordem() {
     let arrow = document.querySelector(".animation8");
     arrow.classList.toggle('seta')
-    var arrow2 = document.querySelector('.texto8');
-    arrow2.classList.toggle('ativa')
-}
-function rota9() {
-    let arrow = document.querySelector(".animation9");
-    arrow.classList.toggle('seta')
-    var arrow2 = document.querySelector('.texto9');
-    arrow2.classList.toggle('ativa')
+    var arrow2 = document.querySelector('.ordem');
+    arrow2.classList.toggle('ordem1')
 }

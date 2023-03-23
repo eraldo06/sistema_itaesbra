@@ -7,13 +7,16 @@ font-family: 'Poppins', sans-serif;
 }
 header{
     display: flex;
-    background-color: rgb(133, 29, 29);
+    background-color: rgb(173, 16, 16);
     padding: 20px;
     justify-content:space-between;
     align-items: center;
 }
-
-header h1{
+header img{
+    width: 300px;
+    
+}
+header h2{
     color: rgb(255, 255, 255);
 }
 header p{
@@ -26,7 +29,7 @@ header p{
 }
 
 .menu{
-    background-color: rgb(209, 204, 204);
+    background-color: rgb(245, 245, 245);
     width: 15%;
 }
 
@@ -37,8 +40,21 @@ header p{
     justify-content:space-between;
     cursor: pointer;
 }
+.menu div div p{
+    font-size: 18px;
+}
 .menu div img{
     cursor: pointer;
+}
+.menu ul{
+    margin-left: 15%;
+    list-style: none;
+}
+.menu ul li{
+    margin-bottom: 10px;
+}
+.ordem1{
+    display: block !important;
 }
 #animation{
     transition: 300ms;
