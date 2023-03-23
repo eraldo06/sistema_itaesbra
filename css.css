@@ -2,6 +2,8 @@
     border: 0;
     padding: 0;
     margin: 0;
+    font-family: 'Inter Tight', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 header{
     display: flex;
@@ -11,6 +13,9 @@ header{
     align-items: center;
 }
 
+header h1{
+    color: rgb(255, 255, 255);
+}
 header p{
     color: rgb(255, 255, 255);
 }
@@ -25,7 +30,7 @@ header p{
     width: 15%;
 }
 
-.menu div{
+.menu div div{
     margin: 2%;
     padding: 10px;
     display: flex;
@@ -42,10 +47,19 @@ header p{
     transform: rotate(90deg);
     transition: 300ms;
 }
+.seta2{
+    background-color: aqua !important;
+}
 .ativa{
     display: block !important;
 }
 .conteudo{
     background-color: rgb(255, 255, 255);
     width: 85%;
+    display: flex;
+    align-items: center;
+}
+.conteudo img{
+    width: 100%;
+   
 }

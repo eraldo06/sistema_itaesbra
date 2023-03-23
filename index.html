@@ -1,50 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css.css">
 </head>
+
 <body>
     <header>
-            <P>ITAESBRA</P>
-            <P>USUÁRIO </P>
+        <h1>ITAESBRA</h1>
+        <P>USUÁRIO </P>
     </header>
     <div class="corpo">
         <div class="menu">
-            <div onclick="rota()" id="arrow">
-                Serviços
-                <img  id="animation" src="/seta-direita.png" alt="">
-            </div>
-              <p id="texto" style="display: none;">texto</p>
             <div>
-                Cadastros
-                <img src="/seta-direita.png" alt="">
+                <div onclick="rota()">
+                    Serviços
+                    <img class="animation" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
             </div>
-            <div>Tabelas <img src="/seta-direita.png" alt=""></div>
-            <div>Relatórios</div>
-            <div>Configurações</div>
-            <div>Utilidades</div>
-            <div>Analises</div>
-            <div>Ajuda</div>
-            <div>Sair</div>
+
+            <div>
+                <div onclick="rota2()">
+                    Cadastro
+                    <img class="animation2" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto2" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+
+            <div>
+                <div onclick="rota3()" id="arrow">
+                    Tabelas
+                    <img class="animation3" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto3" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+
+            <div>
+                <div onclick="rota4()" id="arrow">
+                    Relatórios
+                    <img class="animation4" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto4" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+
+            <div>
+                <div onclick="rota5()" id="arrow">
+                    Configurações
+                    <img class="animation5" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto5" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+
+          
+
+            <div>
+                <div onclick="rota6()" id="arrow">
+                    Utilidades
+                    <img class="animation6" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto6" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+
+            <div>
+                <div onclick="rota7()" id="arrow">
+                    Analises
+                    <img class="animation7" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto7" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+
+            <div>
+                <div onclick="rota8()" id="arrow">
+                    Ajuda
+                    <img class="animation8" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto8" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+
+            <div>
+                <div onclick="rota9()" id="arrow">
+                    Sair
+                    <img class="animation9" src="/seta-direita.png" alt="">
+                </div>
+                <ul class="texto9" style="display: none;">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+        
         </div>
-        <div class="conteudo"></div>
+
+        <div class="conteudo">
+            <img src="/1659619221094.jpg" alt="">
+        </div>
     </div>
 
-    <script>
-        function rota(){
-            var arrow = document.getElementById('animation');
-            arrow.classList.toggle('seta')
-            var arrow2 = document.getElementById('texto');
-            arrow2.classList.toggle('ativa')
-        }
-        function texto(){
-            var arrow2 = document.getElementById('texto');
-            arrow2.classList.toggle('ativa')
-        }
-    </script>
+    <script src="/home.js"></script>
 </body>
+
 </html>
