@@ -47,3 +47,9 @@ function ordem() {
     var arrow2 = document.querySelector('.ordem');
     arrow2.classList.toggle('ordem1')
 }
+
+function testet() {
+    let arrow = document.querySelector(".ieb");
+    arrow.classList.toggle('um')
+    
+}

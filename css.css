@@ -14,13 +14,14 @@ header{
 }
 header img{
     width: 300px;
-    
 }
+
 header h2{
     color: rgb(255, 255, 255);
 }
-header p{
+header a{
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .corpo{
@@ -39,6 +40,9 @@ header p{
     display: flex;
     justify-content:space-between;
     cursor: pointer;
+}
+.menu div div img{
+    height: 20px;
 }
 .menu div div p{
     font-size: 18px;
@@ -72,10 +76,34 @@ header p{
 .conteudo{
     background-color: rgb(255, 255, 255);
     width: 85%;
-    display: flex;
-    align-items: center;
+    
+   
+}
+.ieb{
+    background-color: rgb(173, 16, 16);
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: -5%;
+    width: 300px;
+    height: 170px;
+    margin-left: 73%;
+    visibility: hidden;
+  color: white
+}
+.ieb a{
+    cursor: pointer;
+}
+.p{
+    background-color: rgba(181, 172, 172, 0.615);
+    width: 100%;
+    padding: 1px;
+    margin: 5px;
+}
+.um{
+   
+    visibility: visible;
+
 }
 .conteudo img{
     width: 100%;
-   
 }
