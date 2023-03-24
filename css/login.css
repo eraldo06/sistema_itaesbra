@@ -1,0 +1,106 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(173, 16, 16);
+    padding: 20px;
+    justify-content:space-between;
+    align-items: center;
+}
+header img{
+    width: 300px;
+}
+
+header h2{
+    color: rgb(255, 255, 255);
+}
+header a{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.login{
+    background: url("/img/fundo_branco.jpg") no-repeat center center;
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divlogin{
+    margin-top: 0;
+    background-color: rgb(173, 16, 16);
+   color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+.divlogin h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.flogin{
+    margin-top: 10%;
+}
+.flogin span{
+    font-size: 20px;
+    font-weight: 500;
+  
+}
+
+.flogin input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.entrar{
+    margin-top: 5%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15%;
+}
+.empresa{
+    background-color: rgb(173, 173, 173);
+    display: flex ;
+    border-radius: 10px;
+    padding: 20px;
+}
+.empresa p{
+    margin-top: 10px;
+}
+.empresa span{
+    background-color: rgb(119, 119, 119);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.dia{
+    height: 33%;
+    width: 100%;
+}
+.mes{
+    height: 33%;
+    width: 100%;
+}
+.ano{
+    height: 33%;
+    width: 100%;
+}
+.q{
+    background-color: rgb(119, 119, 119);
+    padding: 10px;
+    width: 19px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.qa{
+    width: 35px;
+}
