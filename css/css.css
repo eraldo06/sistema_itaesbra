@@ -30,12 +30,16 @@ header a{
 }
 
 .menu{
-    background-color: rgb(245, 245, 245);
+   background-color: rgb(245, 245, 245);
     width: 15%;
+    color: #8496a0;
+    border-right: solid 1px #8496a0;;
 }
 .divmenu{
-    border-bottom: 2px solid black;
-    border-radius: 10px;
+    border-bottom: 1px solid #8496A0;
+}
+.setaa{
+    font-size: 20px;
 }
 
 .menu div div{
@@ -60,6 +64,12 @@ header a{
 }
 .menu ul li{
     margin-bottom: 10px;
+}
+.s :hover{
+    background-color: rgba(190, 188, 188, 0.719);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
 }
 .ordem li:hover{
     background-color: rgba(190, 188, 188, 0.719);

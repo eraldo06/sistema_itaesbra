@@ -17,7 +17,7 @@ header img{
 }
 
 header h2{
-    color: rgb(255, 255, 255);
+    color: #8496A0;
 }
 header a{
     color: rgb(255, 255, 255);
@@ -35,7 +35,7 @@ header a{
 .divlogin{
     margin-top: 0;
     background-color: rgb(173, 16, 16);
-   color: white;
+   color: rgba(255, 255, 255, 0.586);
     padding: 50px;
     border-radius: 10px;
 }
