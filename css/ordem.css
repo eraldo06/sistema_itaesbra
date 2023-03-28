@@ -106,7 +106,7 @@ header a{
 }
 .conteudo{
     background-color: rgb(255, 255, 255);
-    width: 85%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,26 +139,56 @@ header a{
     margin: 5px;
 }
 .um{
-   
     visibility: visible;
-
 }
 .conteudo img{
     width: 100%;
 }
-.ordem{
+.ordem10{
     color: rgb(173, 16, 16);
     border: 2px solid rgb(173, 16, 16);
     padding: 50px;
+    width: 70%;
     border-radius: 5px;
     background-color: rgb(236, 235, 235);
 }
 .ordemi{
+    display: flex;
+}
+
+.ordem10 input{
+    border: 1px solid rgb(173, 16, 16);
+    width: 90%;
+    height: 25px;
+    border-radius: 3px;
+}
+.ident{
+    display: flex;
     
 }
-.ordem input{
-    border: 1px solid rgb(173, 16, 16);
+.ident div{
     width: 100%;
+    margin: 10px;
+}
+.ident input{
+    margin-top: 2%;
+}
+.ordemi div{
+    width: 100%;
+}
+
+.ordemi div input{
+    width: 50%;
+}
+.ordemi div div {
+    display: flex;
+    margin: 10px;
+}
+.ordemi div div strong{
+    width: 119px;
+}
+svg{
+    width: 25px;
     height: 30px;
-    border-radius: 3px;
+    margin-left: 1%;
 }

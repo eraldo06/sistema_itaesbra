@@ -63,7 +63,9 @@ header a{
     margin-top: 5%;
     background-color: white;
     padding: 20px;
-    border-radius: 15%;
+    border-radius: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .empresa{
     background-color: rgb(173, 173, 173);
@@ -80,6 +82,9 @@ header a{
     margin-top: 20px;
     border-radius: 9px;
     cursor: pointer;
+    padding-left: 13px;
+    padding-right: 13px;
+   
 }
 
 .dia{
